@@ -34,27 +34,27 @@ function GoToButton({ screenName }) {
 
   function HomeScreen({ navigation }) {
     return (
-     <View style={tw`w-full h-full flex flex-row `}> 
+     <View style={tw`w-full h-full flex flex-row ml-24 mt-24 `}> 
       <View >
           <View style = {{width:100 , height:100}}>
           <Image source={require('../assets/Icons/calandar.png')} style = {{width:70 , height:70}} />
         <GoToButton screenName="Events" />
         </View>
-        <View>
+        <View style={{width:100 , height:100}}>
         <Image source={require('../assets/Icons/food.jpg')} style = {{width:70 , height:70}}/>
         <GoToButton screenName="Food" />
         </View>
-        <View>
+        <View style={{width:100 , height:100}}>
         <Image source={require('../assets/Icons/coach.png')} style = {{width:70 , height:70}}/>
         <GoToButton screenName="Coachs" />
         </View>
       </View>
       <View >
-      <View>
+      <View style={{width:100 , height:100}} >
       <Image source={require('../assets/Icons/gym.jpg')} style = {{width:70 , height:70}}/>
         <GoToButton screenName="Gyms" />
         </View>
-      <View >
+      <View style={{width:100 , height:100}}>
       <Image source={require('../assets/Icons/bmi.png')} style = {{width:70 , height:70}}/>
         <GoToButton screenName="Bmi" />
       </View>
