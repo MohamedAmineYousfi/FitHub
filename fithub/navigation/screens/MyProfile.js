@@ -8,7 +8,7 @@ const MyProfile    = ({ navigation }) => {
         onPress={() => navigation.navigate('MyProfile')}
         style={{ fontSize: 26, fontWeight: "bold" }}
       >
-        MyProfile Screnn
+        MyProfile Screen
       </Text>
     </View>
   );

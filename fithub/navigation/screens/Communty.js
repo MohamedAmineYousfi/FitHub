@@ -8,7 +8,7 @@ const Communty = ({ navigation }) => {
         onPress={() => navigation.navigate('Communty')}
         style={{ fontSize: 26, fontWeight: "bold" }}
       >
-        Communty Screnn
+        Communty Screen
       </Text>
     </View>
   );

@@ -3,7 +3,7 @@ import { Image , Button, View, Text } from 'react-native';
 import { useNavigation, NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import tw from 'tailwind-react-native-classnames';
-import Coaches from '../navigation/screens/Coeaches.js';
+import Coachs from '../navigation/screens/Coachs.js';
 import Events from '../navigation/screens/Events.js';
 import Food from '../navigation/screens/Food.js';
 import Gyms from '../navigation/screens/Gym.js';
@@ -46,7 +46,7 @@ function GoToButton({ screenName }) {
         </View>
         <View>
         <Image source={require('../assets/Icons/coach.png')} style = {{width:70 , height:70}}/>
-        <GoToButton screenName="Coaches" />
+        <GoToButton screenName="Coachs" />
         </View>
       </View>
       <View >
@@ -72,7 +72,7 @@ function GoToButton({ screenName }) {
           <Stack.Navigator initialRouteName="Home" >
             <Stack.Screen name="Home" component={SignupScreen} /> 
             <Stack.Screen name="LogIn" component={HomeScreen} />
-            <Stack.Screen name="Coaches" component={Coaches} />
+            <Stack.Screen name="Coachs" component={Coachs} />
             <Stack.Screen name="Events" component={Events} />
             <Stack.Screen name="Food" component={Food} />
             <Stack.Screen name="Gyms" component={Gyms} />

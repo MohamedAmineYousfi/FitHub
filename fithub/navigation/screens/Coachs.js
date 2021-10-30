@@ -1,17 +1,17 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-const Coeaches = ({ navigation }) => {
+const Coachs = ({ navigation }) => {
     return (
         <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
             <Text
             onPress={() => navigation.navigate('Coeaches')}
             style={{ fontSize: 26, fontWeight: "bold" }}
-            >Coeaches Are here</Text>
+            >Coachs Are here</Text>
         </View>
     )
 }
 
-export default Coeaches
+export default Coachs
 
 const styles = StyleSheet.create({})
